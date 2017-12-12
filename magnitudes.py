@@ -849,7 +849,7 @@ Finally the corresponding values for the Vega 2012 A0V template are
     if self.showgui:
       self.putMessage('The spectrum has been written to scaled_spectrum.txt')
     outfile=open('scaled_spectrum_etc.txt','w')
-    fnu=fnu*1.e+06
+    fnu=fnu*1.e+03
     for n in range(len(self.otherWavelengths)):
       print('%15.8f %13.6e' % (self.otherWavelengths[n],fnu[n]),file=outfile)
     outfile.close()
