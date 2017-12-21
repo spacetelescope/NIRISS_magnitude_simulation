@@ -458,24 +458,24 @@ class Magnitude(Tk.Frame):
 # included.
 #
     try:
-      filenames=['jwst_telescope_ote_throughput_nis.fits',
-                 'jwst_niriss_internaloptics_throughput.fits',
-                 'jwst_niriss_h2rg_qe.fits',
-                 'jwst_niriss_internaloptics-clear_throughput.fits',
-                 'jwst_niriss_internaloptics-clearp_throughput.fits',
-                 'jwst_niriss_f090w_trans.fits',
-                 'jwst_niriss_f115w_trans.fits',
-                 'jwst_niriss_f140m_trans.fits',
-                 'jwst_niriss_f150w_trans.fits',
-                 'jwst_niriss_f158m_trans.fits',
-                 'jwst_niriss_f200w_trans.fits',
-                 'jwst_niriss_f277w_trans.fits',
-                 'jwst_niriss_f356w_trans.fits',
-                 'jwst_niriss_f380m_trans.fits',
-                 'jwst_niriss_f430m_trans.fits',
-                 'jwst_niriss_f444w_trans.fits',
-                 'jwst_niriss_f480m_trans.fits',
-                 'jwst_niriss_nrm_trans.fits']
+      filenames=['standard_throughputs/jwst_telescope_ote_throughput_nis.fits',
+                 'standard_throughputs/jwst_niriss_internaloptics_throughput.fits',
+                 'standard_throughputs/jwst_niriss_h2rg_qe.fits',
+                 'standard_throughputs/jwst_niriss_internaloptics-clear_throughput.fits',
+                 'standard_throughputs/jwst_niriss_internaloptics-clearp_throughput.fits',
+                 'standard_throughputs/jwst_niriss_f090w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f115w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f140m_trans.fits',
+                 'standard_throughputs/jwst_niriss_f150w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f158m_trans.fits',
+                 'standard_throughputs/jwst_niriss_f200w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f277w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f356w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f380m_trans.fits',
+                 'standard_throughputs/jwst_niriss_f430m_trans.fits',
+                 'standard_throughputs/jwst_niriss_f444w_trans.fits',
+                 'standard_throughputs/jwst_niriss_f480m_trans.fits',
+                 'standard_throughputs/jwst_niriss_nrm_trans.fits']
       n=len(filenames)
       file1=fits.open(etcpath+filenames[0])
       tabledata=file1[1].data

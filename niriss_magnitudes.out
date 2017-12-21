@@ -1,0 +1,18 @@
+# Assumed A0V spectral template: Bohlin Vega (2014)
+# Model Spectrum: Old Kurucz model T = 3500.0 log(g) = 5.00000 z = 0.00
+# No ISM extinction
+# Normalization: A0V magnitude 9.000000 for filter 2MASS J
+# Filter        Magnitude   Count Rate    Mean F_lambda    Mean F_nu  Pivot Wavelength
+#                          electron/sec   W/m^2/micron       Jy         Microns       
+NIRISS F090W      9.94486  1.316071e+07   8.971908e-13   2.437347e-01   0.902457
+NIRISS F115W      9.22976  2.156852e+07   8.417420e-13   3.710290e-01   1.149542
+NIRISS F140M      8.69172  1.117027e+07   6.829838e-13   4.491029e-01   1.404035
+NIRISS F150W      8.52261  2.480838e+07   6.461234e-13   4.807069e-01   1.493457
+NIRISS F158M      8.35280  1.356480e+07   6.120558e-13   5.109631e-01   1.582011
+NIRISS F200W      8.09464  2.558176e+07   3.449092e-13   4.569636e-01   1.992961
+NIRISS F277W      7.92056  1.756662e+07   1.208686e-13   3.080754e-01   2.764281
+NIRISS F356W      7.78537  1.313928e+07   5.053596e-14   2.176182e-01   3.593004
+NIRISS F380M      7.75794  2.429683e+06   4.001019e-14   1.952830e-01   3.825227
+NIRISS F430M      7.76579  1.568771e+06   2.565824e-14   1.570616e-01   4.283827
+NIRISS F444W      7.79626  7.976541e+06   2.231860e-14   1.459495e-01   4.427699
+NIRISS F480M      7.84329  1.308658e+06   1.525934e-14   1.180189e-01   4.815243
